@@ -268,10 +268,10 @@ p .welcomecolor {color: cyan;}
 .intro-block { padding: 80px 0px; }
 .intro-block h1 { display: block; width: 1180px; margin: 0 auto; line-height: 150%; font-family: 'Lato', sans-serif; font-weight: 900; font-size: 40px; }
 .home-block { width: 1180px; margin: 0 auto; padding-top: 85px; padding-bottom: 80px; }
-h1.block-title, h2.block-title { display: block; position: relative; width: 1180px; line-height: 1; margin: 0 auto; margin-bottom: 40px; padding-bottom: 40px; font-size: 55px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: center; }
+h1.block-title, h2.block-title { display: block; position: relative; width: 1180px; line-height: 1; margin: 0 auto; margin-bottom: 40px; padding-bottom: 40px; font-size: 55px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: center; color: #000;}
 h1.block-title:after, h2.block-title:after { display: block; content: " "; position: absolute; bottom: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; width: 40px; height: 6px; background: #CCC; }
-.block-text { width: 1000px; margin: 0 auto; }
-.block-text p { margin-bottom: 20px; line-height: 170%; font-size: 18px; color: #666; text-align: center;}
+.block-text { width: 90%; margin: 0 auto; }
+.block-text p { margin-bottom: 20px; line-height: 170%; font-size: 18px; color: #666; text-align: center; font-family: Helvetica, sans-serif;}
 
 
 /*=====================================================================================*/
@@ -914,9 +914,9 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
 .section-title h3 { font-size: 20px; font-weight: normal; font-family: 'Lato', sans-serif; margin: 0; }
 
 /*-- About Block ( Wow ) --*/
-.about-wow { width: 1190px; height: 900px; margin: 0 auto; overflow: hidden; background: #FFF; }
-.about-wow .about-contents { width: 540px; float: left; margin-left: 50px; padding-top: 120px; }
-.about-wow .about-contents h2 { margin-bottom: 50px; font-size: 200px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: right; }
+.about-wow { width: 1190px; height: 600px; margin: 0 auto; overflow: hidden; background: #FFF; }
+.about-wow .about-contents { width: 400px; float: left; margin-left: 150px; padding-top: 120px; }
+.about-wow .about-contents h2 { margin-bottom: 50px; font-size: 100px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: right; color: #000;}
 .about-wow .about-contents p { line-height: 170%; font-size: 17px; text-align: right; }
 .about-wow .about-image { width: 526px; height: 690px; float: right; }
 .about-wow .about-image img { width: 526px; height: 690px; display: block; }
@@ -1133,13 +1133,19 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
     cursor: pointer;
 }
 
+.magic-header {
+	width: 400px;
+}
+
 .magic-paragraph {
 	display: block;
-	width: 600px;
+	width: 400px;
 }
 .magic-paragraph p {
-	text-align: left !important;
+	text-align: right;
 	padding-bottom: 10px;
+	color: #000;
+	font-family: Helvetica, sans-serif;
 }
 .dot-pink {
 	width: 30px;
