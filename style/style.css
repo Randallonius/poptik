@@ -1179,6 +1179,36 @@ padding: 60px 20px;
 .contact-intro {
 	text-align: center;
 }
+
+/*=====================================================================================*/
+/*       EXCLUSIVE SECTION LIST LAYOUT                                                 */
+/*=====================================================================================*/
+
+.exclusive-container{
+	width: 50%;
+  height: 300px;
+  margin-left: 25.5%;
+}
+
+.exclusive-container-left {
+	float: left;
+	width: 50%;
+
+}
+
+.exclusive-container-right{
+	float: right;
+	width: 50%;
+}
+
+.exclusive-list-style {
+	list-style-type: circle;
+}
+
+
+
+
+
 /* Keep the effect safe from iPad and Mobile devices */
 @media only screen and (min-width: 1100px) {
 .separator1 .bg {
