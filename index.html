@@ -96,7 +96,7 @@ data-start : the starting position in seconds
 data-alt : the url of the image that will be shown as background of the homepage on devices that cannot display YouTube backgrounds ( mobile devices in general )
 
 -->
-<div class="home2 video_bg" data-video="OO_euV3eMvY" data-start="" data-alt="images/home2-bg.jpg">
+<div id="introVideo" class="home2 video_bg" data-video="OO_euV3eMvY" data-start="" data-alt="images/home2-bg.jpg">
 
 
      <!-- White overlay ( feel free to remove ) -->
@@ -122,7 +122,7 @@ data-alt : the url of the image that will be shown as background of the homepage
               <div class="modal-content">
                 <span class="close">x</span>
                 <iframe width="500" height="350"
-                src="https://www.youtube.com/embed/QCouefz6RbY">
+                src="">
                 </iframe>
               </div>
 
@@ -239,7 +239,18 @@ data-alt : the url of the image that will be shown as background of the homepage
                    </div> -->
                    <h4>ZOOM</h4>
               </div>
-      </div>
+          </div>
+
+          <!--SERVICES-->
+          <div class="service" data-animation="true" data-animation-style="zoomIn">
+          <!-- <a href="ajax_contents/services/motionpictures.htm" class="load-service"> -->
+             <div class="service-inner">
+                  <!-- <div class="service-image-icon">
+                       <img src="images/service_icons/motionpicture.png" alt="" />
+                  </div> -->
+                  <h4>SHAPE SHIFT</h4>
+             </div>
+         </div>
 
                <div class="clear"></div>
                </div>
@@ -287,17 +298,11 @@ data-alt : the url of the image that will be shown as background of the homepage
           <div class="block-text mrgn-bottom30" data-animation="true" data-animation-style="zoomIn">
             <p>
               Poptik is a “first to market” aesthetic that consumers have never seen…ever.
-            </p>
-            <p>
               It is a technology so impactful, it literally effects a consumer’s purchasing decision at the point of sale.
-            </p>
-            <p>
               Focus group and survey results we collected have revealed absolute truths about the Poptik technology:
-            </p>
-            <p>
               Poptik is more than 2x more likely to draw the attention of consumers than the most compelling High Visibility Enhancements on
-              the market (ie: foil stamping, UV Coating and lenticular)<br />
-              A Poptikated product carries with it a heightened perception of value vs. other products<br />
+              the market (ie: foil stamping, UV Coating and lenticular)
+              A Poptikated product carries with it a heightened perception of value vs. other products
               Millennials LOVE Poptik. So do Gen Z consumers. Our technology embodies a variety of the virtues that these generations have
               come to expect from things they interact with: visually stunning, fresh/new/not over saturated, game changing!
             </p>
@@ -368,8 +373,12 @@ data-alt : the url of the image that will be shown as background of the homepage
 
           <!-- Phone Number -->
           <div class="hidden-element" id="hidden-phone-number">
-               <p><a href="tel:+00000000000">1 - 555 - 5555</a></p>
+            <p><a href="tel:+1-555-555-5555">1- 555 - 555 - 5555</a></p>
+            <p>
+              <a href="mailto:explore@hellophonic.com" target="_top">EMAIL US</a>
+            </p>
           </div>
+
 
           <!-- Contact Form -->
           <div class="hidden-element" id="hidden-form">
@@ -530,20 +539,24 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
+    $('#myModal iframe').attr('src', 'https://www.youtube.com/embed/QCouefz6RbY');
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
+    $('#myModal iframe').attr('src', '');
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+        $('#myModal iframe').attr('src', '');
     }
 }
 </script>

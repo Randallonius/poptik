@@ -647,7 +647,7 @@ table.portfolio-table td strong { color: #333; }
 
 /*-- Grid 4 columns --*/
 .service-grids4 { width: 1080px; margin: 0 auto; overflow: hidden; }
-.service-grids4 .services-wrapper {}
+.service-grids4 .services-wrapper { margin-bottom: 70px;}
 .service-grids4 .service { width: 268px; float: left; margin: 1px; background: rgba(0,0,0,1.0); color: #FFF; text-align: center; transition: background 1s; -webkit-transtion: background 1s; -moz-transition: background 1s; }
 .service-grids4 .service:hover { background: rgba(0,0,0,0.8); }
 .service-grids4 .service .service-inner { padding-top: 85px; padding-bottom: 70px; }
@@ -878,13 +878,13 @@ table.contacts-table td strong { color: #333; }
 
 /*-- Contact Hidden --*/
 .show-elements { display: flex; justify-content: center; width: 1004px; margin: 0 auto; margin-top: 20px;text-align: center; }
-.show-elements a { display: block; float: left; width: 250px; height: 96px; line-height: 96px; margin-right: -1px; font-family: 'Montserrat', sans-serif; color: #000; font-size: 18px; font-weight: bold; border: 1px solid #000; transition: all 0.5s; -webkit-transtion: all 0.5s; -moz-transition: all 0.5s; }
+.show-elements a { display: block; float: left; width: 250px; height: 96px; line-height: 96px; margin-right: -1px; font-family: 'Montserrat', sans-serif; color: #000; font-size: 18px; font-weight: bold; border: 1px solid #000; transition: all 0.5s; -webkit-transtion: all 0.5s; -moz-transition: all 0.5s;}
 .show-elements a:hover { background: #000; color: #FFF; }
 .show-elements a.active { background: #000; color: #FFF; }
 .hidden-element { display: none; }
 #hidden-form { padding-top: 70px; }
 #hidden-phone-number { padding-top: 80px; }
-#hidden-phone-number p { font-family: 'Montserrat', sans-serif; color: #000; font-size: 50px; font-weight: bold; text-align: center; }
+#hidden-phone-number p { font-family: 'Montserrat', sans-serif; color: #000; font-size: 50px; font-weight: bold; text-align: center; padding-bottom: 20px;}
 #hidden-phone-number p a { color: #000; }
 #hidden-map { padding-top: 50px; }
 #hidden-map p { margin-bottom: 20px; text-align: center; font-size: 22px; line-height: 170%; color: #000; }
@@ -1102,6 +1102,10 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
 /*=====================================================================================*/
 /*       14. Added Elements                                                                */
 /*=====================================================================================*/
+#introVideo {
+	width: 100%;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
