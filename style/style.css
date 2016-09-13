@@ -267,7 +267,7 @@ p .welcomecolor {color: cyan;}
 .content-narrow { width: 1080px; margin: 0 auto; }
 .intro-block { padding: 80px 0px; }
 .intro-block h1 { display: block; width: 1180px; margin: 0 auto; line-height: 150%; font-family: 'Lato', sans-serif; font-weight: 900; font-size: 40px; }
-.home-block { width: 1180px; margin: 0 auto; padding-top: 85px; padding-bottom: 80px; }
+.home-block { width: 100%; margin: 0 auto; padding-top: 85px;}
 h1.block-title, h2.block-title { display: block; position: relative; width: 1180px; line-height: 1; margin: 0 auto; margin-bottom: 40px; padding-bottom: 40px; font-size: 55px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: center; color: #000;}
 h1.block-title:after, h2.block-title:after { display: block; content: " "; position: absolute; bottom: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; width: 40px; height: 6px; background: #CCC; }
 .block-text { width: 90%; margin: 0 auto; }
