@@ -365,7 +365,7 @@ a.floating-button span.line:last-child { margin-bottom: 0px; }
 .home2 { width: 1180px; height: 670px; position: relative; margin: 0 auto; text-align: center; }
 .home2 .welcome { display: inline-block; padding-top: 13%; position: relative; z-index: 99; }
 .home2 .welcome .mini-intro { margin-bottom: 25px; font-size: 15px; color: #333; }
-.home2 .welcome .big-headline h1 { display: inline-block; line-height: 150%; margin-bottom: 40px; font-size: 80px; font-family: 'Lato', sans-serif; font-weight: 900; color: #000; text-transform: uppercase; width: 500px;}
+.home2 .welcome .big-headline h1 { display: inline-block; line-height: 150%; margin-bottom: 40px; font-size: 80px; font-family: 'Lato', sans-serif; font-weight: 900; color: #000; text-transform: uppercase; width: 60%;}
 .home2 .welcome .cta-container { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: bold; background-color: #FF3CA2; width: 300px; height: 100px; line-height: 100px;margin: 0 auto;}
 .home2 .welcome .cta-container a { display: inline-block; height: 57px; line-height: 57px; padding: 0px 30px; color: #FFF; transition: opacity 1s; -webkit-transtion: opacity 1s; -moz-transition: opacity 1s; text-transform: uppercase;}
 .home2 .welcome .cta-container a:hover { opacity: 0.6; }
@@ -877,7 +877,7 @@ table.contacts-table td strong { color: #333; }
 .locations .location p { line-height: 170%; font-size: 20px; color: #FFF; text-align: center; }
 
 /*-- Contact Hidden --*/
-.show-elements { display: flex; justify-content: center; width: 1004px; margin: 0 auto; text-align: center; }
+.show-elements { display: flex; justify-content: center; width: 1004px; margin: 0 auto; margin-top: 20px;text-align: center; }
 .show-elements a { display: block; float: left; width: 250px; height: 96px; line-height: 96px; margin-right: -1px; font-family: 'Montserrat', sans-serif; color: #000; font-size: 18px; font-weight: bold; border: 1px solid #000; transition: all 0.5s; -webkit-transtion: all 0.5s; -moz-transition: all 0.5s; }
 .show-elements a:hover { background: #000; color: #FFF; }
 .show-elements a.active { background: #000; color: #FFF; }
@@ -1176,6 +1176,9 @@ padding: 60px 20px;
 	margin-left: 5%;
 }
 
+.contact-intro {
+	text-align: center;
+}
 /* Keep the effect safe from iPad and Mobile devices */
 @media only screen and (min-width: 1100px) {
 .separator1 .bg {
@@ -1475,7 +1478,7 @@ background-attachment: fixed !important;
 
 
        /*-- Footer --*/
-       .footer { width: 1500px; }
+       .footer { width: 100%; }
 
        /*-- Framework --*/
        .full { width: 1500px; margin-bottom: 90px; }
@@ -1499,7 +1502,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 880px; }
        .intro-block { padding: 75px 0px; }
        .intro-block h1 { width: 960px; font-size: 35px; }
-       .home-block { width: 960px; padding-top: 75px; padding-bottom: 75px; }
+       .home-block { width: 100%; padding-top: 75px; padding-bottom: 75px; }
        h1.block-title, h2.block-title { width: 960px; margin-bottom: 40px; padding-bottom: 40px; font-size: 50px; }
        h1.block-title:after, h2.block-title:after { width: 40px; height: 6px; }
        .block-text { width: 900px; }
@@ -1788,7 +1791,7 @@ background-attachment: fixed !important;
        .fashion-intro .intro-text { width: 590px; line-height: 180%; padding-top: 15px; font-size: 13px; }
 
        /*-- Footer --*/
-       .footer { width: 960px; }
+       .footer { width: 100%; }
 
        /*-- Framework --*/
        .full { width: 960px; margin-bottom: 60px; }
@@ -1852,7 +1855,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 620px; }
        .intro-block { padding: 70px 0px; }
        .intro-block h1 { width: 700px; font-size: 25px; }
-       .home-block { width: 700px; padding-top: 60px; padding-bottom: 60px; }
+       .home-block { width: 100%; padding-top: 60px; padding-bottom: 60px; }
        h1.block-title, h2.block-title { width: 700px; margin-bottom: 37px; padding-bottom: 35px; font-size: 45px; }
        h1.block-title:after, h2.block-title:after { width: 40px; height: 6px; }
        .block-text { width: 700px; }
@@ -2160,7 +2163,7 @@ background-attachment: fixed !important;
        .fashion-intro .intro-text { width: 380px; line-height: 180%; padding-top: 0px; font-size: 13px; }
 
        /*-- Footer --*/
-       .footer { width: 700px; padding-top: 50px; padding-bottom: 45px; }
+       .footer { width: 100%; padding-top: 50px; padding-bottom: 45px; }
        .footer-social { margin-bottom: 30px; }
        .footer-social a { margin: 0 20px; font-size: 15px; }
 
@@ -2260,7 +2263,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 460px; }
        .intro-block { padding: 45px 0px; }
        .intro-block h1 { width: 520px; font-size: 20px; }
-       .home-block { width: 520px; padding-top: 55px; padding-bottom: 55px; }
+       .home-block { width: 100%; padding-top: 55px; padding-bottom: 55px; }
        h1.block-title, h2.block-title { width: 520px; margin-bottom: 32px; padding-bottom: 35px; font-size: 40px; }
        h1.block-title:after, h2.block-title:after { width: 35px; height: 5px; }
        .block-text { width: 520px; }
@@ -2584,7 +2587,7 @@ background-attachment: fixed !important;
        .fashion-intro .intro-text { float: none; width: 520px; line-height: 180%; padding-top: 0px; font-size: 14px; text-align: left; }
 
        /*-- Footer --*/
-       .footer { width: 520px; }
+       .footer { width: 100%; }
        .footer-social { margin-bottom: 30px; }
        .footer-social a { margin: 0 15px; font-size: 14px; }
 
@@ -2946,7 +2949,7 @@ background-attachment: fixed !important;
        .fashion-intro .intro-text { width: 420px;}
 
        /*-- Footer --*/
-       .footer { width: 420px; }
+       .footer { width: 100%; }
        .footer-social { margin-bottom: 30px; }
        .footer-social a { margin: 0 12px; font-size: 13px; }
        .footer-copyright { font-size: 13px; }
@@ -3042,7 +3045,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 340px; }
        .intro-block { padding: 40px 0px; }
        .intro-block h1 { width: 400px; font-size: 16px; }
-       .home-block { width: 400px; padding-top: 40px; padding-bottom: 40px; }
+       .home-block { width: 100%; padding-top: 40px; padding-bottom: 40px; }
        h1.block-title, h2.block-title { width: 400px; font-size: 35px; }
        .block-text { width: 400px; }
 
@@ -3253,7 +3256,7 @@ background-attachment: fixed !important;
        #hidden-social a { width: 50px; height: 50px; line-height: 64px; }
 
        /*-- Footer --*/
-       .footer { width: 400px; }
+       .footer { width: 100%; }
        .footer-social { margin-bottom: 20px; }
        .footer-social a { width: 360px; margin: 0 20px; margin-bottom: 20px; font-size: 14px; }
        .footer-copyright { font-size: 10px; }
@@ -3523,7 +3526,7 @@ background-attachment: fixed !important;
 
 
        /*-- Footer --*/
-       .footer { width: 300px; }
+       .footer { width: 100%; }
        .footer-social a { width: 260px; margin-bottom: 20px; font-size: 13px; }
 
        /*-- Framework --*/
