@@ -1122,7 +1122,7 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 60%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -1140,13 +1140,14 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
     cursor: pointer;
 }
 
-.magic-header {
-	width: 400px;
+.modal-content iframe {
+	margin-top: 40px;
 }
+
+
 
 .magic-paragraph {
 	display: block;
-	width: 400px;
 }
 .magic-paragraph p {
 	text-align: right;
@@ -1165,7 +1166,6 @@ width:100%;
 /*position:absolute;*/
 background-image: url('../images/color-back-hex-pink.jpg');
 background-size:cover !important;
-width:100%;
 background-position:center top;
 background-attachment: fixed !important;
 padding: 60px 20px;
@@ -1173,7 +1173,7 @@ padding: 60px 20px;
 
 .bg img {
 	width: 90%;
-	margin: 0 auto;
+	margin-left: 5%;
 }
 
 /* Keep the effect safe from iPad and Mobile devices */
@@ -2546,7 +2546,7 @@ background-attachment: fixed !important;
        .cta-button-container a { height: 50px; line-height: 50px; padding: 0px 22px; font-size: 13px; }
        .about-wow { width: 520px; height: 410px; position: relative; }
        .about-wow .about-contents { width: 300px; margin: auto; padding-top: 55px; position: absolute; z-index: 2; top: 0; left: 0; bottom: 0; right: 0; }
-       .about-wow .about-contents h2 { margin-bottom: 30px; font-size: 90px; text-align: center; }
+       .about-wow .about-contents h2 { margin-bottom: 30px; font-size: 40px; text-align: center; }
        .about-wow .about-contents p { line-height: 170%; font-size: 12px; text-align: center; }
        .about-wow .about-image { width: 310px; height: 410px; position: absolute; z-index: 1; top: 0; bottom: 0; right: 0; }
        .about-wow .about-image img { width: 310px; height: 410px;  opacity: 0.15; }
@@ -2926,7 +2926,7 @@ background-attachment: fixed !important;
 
        /*-- Additional Components --*/
        .about-wow { width: 420px; height: 410px; }
-       .about-wow .about-contents h2 { margin-bottom: 30px; font-size: 80px; }
+       .about-wow .about-contents h2 { margin-bottom: 30px; font-size: 35px; }
        .about-right { padding-top: 50px; }
        .history { width: 360px; }
        .history .year { width: 100%; margin-bottom: 40px; }
