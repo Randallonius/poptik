@@ -335,7 +335,7 @@ h1.block-title:after, h2.block-title:after { display: block; content: " "; posit
 #side_menu_panel div.menu ul li ul li ul li { margin-bottom: 20px; font-size: 12px; opacity: 0.8; }
 
 /*- Overlay Menu -*/
-#elastic_overlay_menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1000000000000000; width: 100%; height: 100%; background: rgba(0,0,0,0.9); text-align: center; }
+#elastic_overlay_menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1000000000000000; width: 100%; height: 100%; background: rgba(255, 60, 162, .9); text-align: center; }
 #elastic_overlay_menu a { color: #FFF; transition: opacity 1s; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; }
 #elastic_overlay_menu a:hover { opacity: 0.6; }
 #elastic_overlay_menu .close-container { display: inline-block; position: fixed; top: 50px; right: 50px; z-index: 1000000000000002; }
@@ -366,7 +366,7 @@ a.floating-button span.line:last-child { margin-bottom: 0px; }
 .home2 .welcome { display: inline-block; padding-top: 13%; position: relative; z-index: 99; }
 .home2 .welcome .mini-intro { margin-bottom: 25px; font-size: 15px; color: #333; }
 .home2 .welcome .big-headline h1 { display: inline-block; line-height: 150%; margin-bottom: 40px; font-size: 80px; font-family: 'Lato', sans-serif; font-weight: 900; color: #000; text-transform: uppercase; width: 500px;}
-.home2 .welcome .cta-container { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: bold; background-color: #FF3CA2; width: 200px; margin: 0 auto;}
+.home2 .welcome .cta-container { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: bold; background-color: #FF3CA2; width: 300px; height: 100px; line-height: 100px;margin: 0 auto;}
 .home2 .welcome .cta-container a { display: inline-block; height: 57px; line-height: 57px; padding: 0px 30px; color: #FFF; transition: opacity 1s; -webkit-transtion: opacity 1s; -moz-transition: opacity 1s; text-transform: uppercase;}
 .home2 .welcome .cta-container a:hover { opacity: 0.6; }
 
@@ -1147,24 +1147,33 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
 	color: #000;
 	font-family: Helvetica, sans-serif;
 }
-.dot-pink {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background: #FF69B4;
-	display: inline-block;
-	margin: 5px;
-	vertical-align: middle;
+
+
+.seperator {
+position:relative;
+width:100%;
 }
 
-.dot-white {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background: #FFF;
-	display: inline-block;
-	margin: 5px;
-	vertical-align: middle;
+.bg {
+/*position:absolute;*/
+background-image: url('../images/color-back-hex-pink.jpg');
+background-size:cover !important;
+width:100%;
+background-position:center top;
+background-attachment: fixed !important;
+padding: 60px 20px;
+}
+
+.bg img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Keep the effect safe from iPad and Mobile devices */
+@media only screen and (min-width: 1100px) {
+.separator1 .bg {
+background-attachment: fixed !important;
+}
 }
 
 /*=====================================================================================*/
