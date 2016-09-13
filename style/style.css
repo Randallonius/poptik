@@ -1196,13 +1196,13 @@ padding: 60px 20px;
 
 .exclusive-container-left {
 	float: left;
-	width: 50%;
+	width: 40%;
 
 }
 
 .exclusive-container-right{
 	float: right;
-	width: 50%;
+	width: 60%;
 }
 
 .exclusive-list-style {
