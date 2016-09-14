@@ -1220,6 +1220,21 @@ background-attachment: fixed !important;
 }
 }
 
+/* Swapping intro video for head-gif for ipad and Mobile*/
+
+@media only screen and (max-width: 500px) {
+#introVideo {
+	display: none;
+}
+
+.header-gif {
+
+
+}
+
+
+}
+
 /*=====================================================================================*/
 /*       15. MEDIA QUERIES                                                             */
 /*=====================================================================================*/
