@@ -267,7 +267,7 @@ p .welcomecolor {color: cyan;}
 .content-narrow { width: 1080px; margin: 0 auto; }
 .intro-block { padding: 80px 0px; }
 .intro-block h1 { display: block; width: 1180px; margin: 0 auto; line-height: 150%; font-family: 'Lato', sans-serif; font-weight: 900; font-size: 40px; }
-.home-block { width: 100%; margin: 0 auto; padding-top: 85px;}
+.home-block { width: 100%; margin: 0 auto;}
 h1.block-title, h2.block-title { display: block; position: relative; width: 1180px; line-height: 1; margin: 0 auto; margin-bottom: 40px; padding-bottom: 40px; font-size: 55px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: center; color: #000;}
 h1.block-title:after, h2.block-title:after { display: block; content: " "; position: absolute; bottom: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; width: 40px; height: 6px; background: #CCC; }
 .block-text { width: 90%; margin: 0 auto; }
@@ -1267,7 +1267,7 @@ background-attachment: fixed !important;
        .first-after-home { padding-top: 120px; }
        .content-narrow { width: 1400px; }
        .intro-block h1 { width: 1500px; }
-       .home-block { width: 1500px; padding-top: 110px; padding-bottom: 110px; }
+       .home-block { width: 1500px; padding-top: 110px;}
        h1.block-title, h2.block-title { width: 1500px; margin-bottom: 50px; padding-bottom: 45px; font-size: 60px; }
        h1.block-title:after, h2.block-title:after { width: 50px; height: 6px; }
        .block-text { width: 1000px; }
@@ -1568,7 +1568,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 880px; }
        .intro-block { padding: 75px 0px; }
        .intro-block h1 { width: 960px; font-size: 35px; }
-       .home-block { width: 100%; padding-top: 75px; padding-bottom: 75px; }
+       .home-block { width: 100%; padding-top: 75px;}
        h1.block-title, h2.block-title { width: 960px; margin-bottom: 40px; padding-bottom: 40px; font-size: 50px; }
        h1.block-title:after, h2.block-title:after { width: 40px; height: 6px; }
        .block-text { width: 900px; }
@@ -1921,7 +1921,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 620px; }
        .intro-block { padding: 70px 0px; }
        .intro-block h1 { width: 700px; font-size: 25px; }
-       .home-block { width: 100%; padding-top: 60px; padding-bottom: 60px; }
+       .home-block { width: 100%; padding-top: 60px;}
        h1.block-title, h2.block-title { width: 700px; margin-bottom: 37px; padding-bottom: 35px; font-size: 45px; }
        h1.block-title:after, h2.block-title:after { width: 40px; height: 6px; }
        .block-text { width: 700px; }
@@ -2329,7 +2329,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 460px; }
        .intro-block { padding: 45px 0px; }
        .intro-block h1 { width: 520px; font-size: 20px; }
-       .home-block { width: 100%; padding-top: 55px; padding-bottom: 55px; }
+       .home-block { width: 100%; padding-top: 55px;}
        h1.block-title, h2.block-title { width: 520px; margin-bottom: 32px; padding-bottom: 35px; font-size: 40px; }
        h1.block-title:after, h2.block-title:after { width: 35px; height: 5px; }
        .block-text { width: 520px; }
@@ -2757,7 +2757,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 360px; }
        .intro-block { padding: 40px 0px; }
        .intro-block h1 { width: 420px; font-size: 17px; }
-       .home-block { width: 420px; padding-top: 50px; padding-bottom: 50px; }
+       .home-block { width: 100%; padding-top: 50px;}
        h1.block-title, h2.block-title { width: 420px; margin-bottom: 30px; padding-bottom: 30px; font-size: 35px; }
        h1.block-title:after, h2.block-title:after { width: 30px; height: 4px; }
        .block-text { width: 420px; }
@@ -3111,7 +3111,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 340px; }
        .intro-block { padding: 40px 0px; }
        .intro-block h1 { width: 400px; font-size: 16px; }
-       .home-block { width: 100%; padding-top: 40px; padding-bottom: 40px; }
+       .home-block { width: 100%; padding-top: 40px;}
        h1.block-title, h2.block-title { width: 400px; font-size: 35px; }
        .block-text { width: 400px; }
 
