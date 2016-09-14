@@ -3350,7 +3350,7 @@ background-attachment: fixed !important;
        .content-narrow { width: 240px; }
        .intro-block { padding: 30px 0px; }
        .intro-block h1 { width: 300px; }
-       .home-block { width: 300px; }
+       .home-block { width: 100%; }
        h1.block-title, h2.block-title { width: 300px; font-size: 30px; }
        .block-text { width: 300px; }
 
