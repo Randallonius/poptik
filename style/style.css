@@ -1184,6 +1184,18 @@ padding: 60px 20px;
 	text-align: center;
 }
 
+@media screen and (max-width: 695px) {
+	.exclusive-list-style-left {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 466px) {
+	.exclusive-list-style-left {
+		float: left;
+	}
+}
+
 /*=====================================================================================*/
 /*       EXCLUSIVE SECTION LIST LAYOUT                                                 */
 /*=====================================================================================*/
@@ -3604,4 +3616,18 @@ background-attachment: fixed !important;
        .two-fourth, .two-fourth-last { width: 300px; }
        .three-fourth, .three-fourth-last { width: 300px; }
 
+}
+
+/**** ADDED MEDIA QUERIES ****/
+
+@media screen and (max-width: 695px) {
+	.exclusive-list-style-left {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 466px) {
+	.exclusive-list-style-left {
+		float: left;
+	}
 }
