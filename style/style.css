@@ -1219,14 +1219,12 @@ padding: 60px 20px;
 }
 
 .exclusive-list-style-left {
-	list-style-type: circle;
 	display: table;
 	float: right;
 	width:50%;
 }
 
 .exclusive-list-style-right {
-	list-style-type: circle;
 	display: table;
 
 }
