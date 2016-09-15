@@ -1184,12 +1184,16 @@ padding: 60px 20px;
 	text-align: center;
 }
 
-.explore-block {
-	padding-top: 90px !important;
-}
+
 
 #exclusive {
 	padding-bottom: 90px;
+}
+
+@media screen and (min-width: 961px) {
+	.explore-block {
+		padding-top: 90px !important;
+	}
 }
 @media screen and (max-width: 695px) {
 	.exclusive-list-style-left {
@@ -1210,45 +1214,53 @@ padding: 60px 20px;
 /*       EXCLUSIVE SECTION LIST LAYOUT                                                 */
 /*=====================================================================================*/
 
+#exlusive {
+	text-align: center;
+}
+
 .exclusive-container{
 	width: 100%;
+	margin: 0 auto;
 }
 
-.exclusive-container-left {
+.exclusive-container-list {}
+.exclusive-container-list.left {
 	float: left;
 	width: 50%;
-
-
 }
 
-.exclusive-container-right{
-	float: left;
-	width: 50%;
-
-}
-
-.exclusive-list-style-left {
-	display: table;
+.exclusive-container-list.right {
 	float: right;
-	width:50%;
+	width: 50%;
 }
 
-.exclusive-list-style-right {
-	display: table;
-
-}
-
-.fa {
+.exclusive-container-list li {
 	display: block;
-
+	margin-bottom: 10px;
 }
 
+.exclusive-container-list li .fa {
+	display: inline-block;
+	padding-right: 10px;
+}
 
 /* Keep the effect safe from iPad and Mobile devices */
 @media only screen and (min-width: 1100px) {
 .separator1 .bg {
 background-attachment: fixed !important;
  }
+}
+
+@media only screen and (min-width: 961px) {
+	.exclusive-container{
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.exclusive-container{
+		width: 80%;
+	}
 }
 
 /*=====================================================================================*/
