@@ -914,7 +914,7 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
 .section-title h3 { font-size: 20px; font-weight: normal; font-family: 'Lato', sans-serif; margin: 0; }
 
 /*-- About Block ( Wow ) --*/
-.about-wow { width: 1190px; height: 600px; margin: 0 auto; overflow: hidden; background: #FFF; }
+.about-wow { width: 100%; height: 600px; margin: 0 auto; overflow: hidden; background: #FFF; }
 .about-wow .about-contents { width: 400px; float: left; margin-left: 150px; padding-top: 120px; }
 .about-wow .about-contents h2 { margin-bottom: 50px; font-size: 100px; font-family: 'Lato', sans-serif; font-weight: 900; text-align: right; color: #000;}
 .about-wow .about-contents p { line-height: 170%; font-size: 17px; text-align: right; }
@@ -1184,10 +1184,16 @@ padding: 60px 20px;
 	text-align: center;
 }
 
+.explore-block {
+	padding-top: 90px !important;
+}
 @media screen and (max-width: 695px) {
 	.exclusive-list-style-left {
 		float: left;
 	}
+.explore-block {
+	padding-top: 60px !important;
+}
 }
 
 @media screen and (max-width: 466px) {
