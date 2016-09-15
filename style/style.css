@@ -1129,6 +1129,11 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
     width: 60%; /* Could be more or less, depending on screen size */
 }
 
+.modal-content iframe {
+	width: 100%;
+
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
@@ -1154,7 +1159,7 @@ span.video-overlay { display: block; position: absolute; top: 0; left: 0; bottom
 	display: block;
 }
 .magic-paragraph p {
-	text-align: right;
+	text-align: left !important;
 	padding-bottom: 10px;
 	color: #000;
 	font-family: Helvetica, sans-serif;
@@ -1182,6 +1187,7 @@ padding: 60px 20px;
 
 .contact-intro {
 	text-align: center;
+	font-family: helvetica, sans-serif;
 }
 
 
