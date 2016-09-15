@@ -1214,8 +1214,9 @@ padding: 60px 20px;
 /*       EXCLUSIVE SECTION LIST LAYOUT                                                 */
 /*=====================================================================================*/
 
-#exlusive {
+#exclusive {
 	text-align: center;
+	border-bottom: 40px solid black;
 }
 
 .exclusive-container{
@@ -1237,11 +1238,13 @@ padding: 60px 20px;
 .exclusive-container-list li {
 	display: block;
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 .exclusive-container-list li .fa {
 	display: inline-block;
 	padding-right: 10px;
+	color: #FF3CA2;
 }
 
 /* Keep the effect safe from iPad and Mobile devices */
@@ -1251,15 +1254,15 @@ background-attachment: fixed !important;
  }
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 950px) {
 	.exclusive-container{
-		width: 60%;
+		width: 80%;
 	}
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) and (max-width: 950px) {
 	.exclusive-container{
-		width: 80%;
+		width: 60%;
 	}
 }
 
