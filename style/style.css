@@ -1238,31 +1238,8 @@ padding: 60px 20px;
 @media only screen and (min-width: 1100px) {
 .separator1 .bg {
 background-attachment: fixed !important;
-}
-}
-
-/* Swapping intro video for head-gif for ipad and Mobile*/
-
-/*@media only screen and (max-width: 500px) {
-#introVideo {
-	display: none;
  }
-
-.header-gif {
-
- }
-}*/
-
-
-/*@media only screen and (max-width: 1187px) {
-	.header-gif {
-		display: none;
-
-	}
-
-}*/
-
-
+}
 
 /*=====================================================================================*/
 /*       15. MEDIA QUERIES                                                             */

@@ -93,10 +93,17 @@ Some notes you migth find helpful:
 
 data-video : the id of the YouTube video ( if you have https://www.youtube.com/watch?v=2NvfYMyyNyo, the 2NvfYMyyNyo will be the id!  ). The theme supports YouTube videos only!
 data-start : the starting position in seconds
-data-alt : the url of the image that will be shown as background of the homepage on devices that cannot display YouTube backgrounds ( mobile devices in general )-->
+data-alt : the url of the image that will be shown as background of the homepage on devices that cannot display YouTube backgrounds ( mobile devices in general )
 
 
-<div id="introVideo" class="home2 video_bg" data-video="OO_euV3eMvY" data-start="" data-alt="images/home-header.gif">
+<div id="introVideo" class="home2 video_bg" data-video="OO_euV3eMvY" data-start="" data-alt="images/beats.gif">
+  <!-- <div class="header-gif">
+    <img src="images/home-header.gif" alt="headergif" height="400" width="400">
+  </div> -->
+
+
+
+<div id="introVideo" class="home2 video_bg" data-video="OO_euV3eMvY" data-start="" data-alt="images/home2-bg.jpg">
 
     <!-- White overlay ( feel free to remove ) -->
      <div class="video-overlay"></div>
@@ -155,30 +162,7 @@ data-alt : the url of the image that will be shown as background of the homepage
                  </p>
           </div>
 
-          <!-- ABOUT BLOCK -->
-          <div class="about-wow" id="magic">
-
-               <!-- Contents -->
-               <div class="about-contents" data-animation="true" data-animation-style="fadeIn">
-                    <div class="magic-header">
-                      <h2>MAGIC</h2>
-                    </div>
-                    <div class="magic-paragraph">
-                      <p>
-                        Poptik features depth effects that hover above or drop below the print with colorshift features and smooth motion graphics, creating a jaw dropping visual impact so persuasive, that it literally affects a consumer’s purchasing decision at the point of sale.
-                      </p>
-                    </div>
-
-               </div>
-
-               <!-- Image -->
-               <div class="about-image" data-animation="true" data-animation-style="fadeInRight">
-                    <img src="images/photo-consumer-hand-wow.jpg" alt="" />
-               </div>
-
-          </div>
-          <!-- END: ABOUT BLOCK -->
-
+<!-- Kept Service Icons in just in case. -->
           <!-- Service Icons -->
           <h2 class="block-title" data-animation="true" data-animation-style="zoomIn">DEVICES</h2>
           <div class="service-grids4">
@@ -282,6 +266,31 @@ data-alt : the url of the image that will be shown as background of the homepage
 </div>
 <!-- END: SERVICES BLOCK -->
 
+<!-- ABOUT BLOCK -->
+<div class="about-wow" id="magic">
+
+     <!-- Contents -->
+     <div class="about-contents" data-animation="true" data-animation-style="fadeIn">
+          <div class="magic-header">
+            <h2>MAGIC</h2>
+          </div>
+          <div class="magic-paragraph">
+            <p>
+              Poptik features depth effects that hover above or drop below the print with colorshift features and smooth motion graphics, creating a jaw dropping visual impact so persuasive, that it literally affects a consumer’s purchasing decision at the point of sale.
+            </p>
+          </div>
+
+     </div>
+
+     <!-- Image -->
+     <div class="about-image" data-animation="true" data-animation-style="fadeInRight">
+          <img src="images/photo-consumer-hand-wow.jpg" alt="" />
+     </div>
+
+</div>
+<!-- END: ABOUT BLOCK -->
+
+
 <!-- POP Section -->
 
 <div class="home-block first-after-home" id="pop">
@@ -292,16 +301,14 @@ data-alt : the url of the image that will be shown as background of the homepage
 
           <!-- POP Text -->
           <div class="block-text mrgn-bottom30" data-animation="true" data-animation-style="zoomIn">
-            <p>
-              Poptik is a “first to market” aesthetic that consumers have never seen…ever.
-              It is a technology so impactful, it literally effects a consumer’s purchasing decision at the point of sale.
-              Focus group and survey results we collected have revealed absolute truths about the Poptik technology:
-              Poptik is more than 2x more likely to draw the attention of consumers than the most compelling High Visibility Enhancements on
-              the market (ie: foil stamping, UV Coating and lenticular)
-              A Poptikated product carries with it a heightened perception of value vs. other products
-              Millennials LOVE Poptik. So do Gen Z consumers. Our technology embodies a variety of the virtues that these generations have
-              come to expect from things they interact with: visually stunning, fresh/new/not over saturated, game changing!
-            </p>
+            <div>
+              <ul>
+                <li>Poptik is more than 2x more likely to draw the attention of consumers than the most compelling High Visibility Enhancements.</li>
+                <li>A Poptik-ated product carries with it a heightened perception of value vs. other products.</li>
+                <li>Poptik is patent protected and is a powerful measure to inhibit counterfeit product.</li>
+                <li>Millennials LOVE Poptik.  So do Gen Z consumers.  Our technology embodies a variety of the virtues that these generations have come to expect from things they interact with: visually stunning, fresh/new/not over saturated, game changing!</li>
+              </ul>
+            </div>
 
 
           </div>
@@ -361,7 +368,7 @@ data-alt : the url of the image that will be shown as background of the homepage
     <!--- class for the pokadots to show --->
 
      <!-- Block Title -->
-     <h2 class="block-title">EXPLORE POPTIK</h2>
+     <h2 class="block-title">Explore Poptik</h2>
      <p class="contact-intro">Contact us to begin a discussion about accessing Poptik for your brand</p>
 
      <!-- Buttons -->
